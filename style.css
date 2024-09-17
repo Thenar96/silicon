@@ -275,7 +275,7 @@ display: flex;
   gap: 12px;
 }
 
-.text h3 {
+.text h2 {
   font-size: 24px;
 }
 
@@ -302,85 +302,39 @@ display: flex;
   margin: auto;
 }
 
-.simple {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 100px;
-  padding: 10px;
-  margin-left: 20%;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
 }
 
-.marks {
-border-radius: 20px;
-width: auto;
-height: auto;
+.section {
+  background-color: white;
+  padding: 20px;
 }
-
-.marks p {
-  font-size: 16px;
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
 }
-
-.marks h2 {
-  font-size: 32px;
+.section p {
+  margin-bottom: 15px;
+  color: #666;
 }
 
 .learn-more {
-  padding: 8px 20px;
-  background-color: var(--color-primary);
-  color: var(--color-white);
-  border-radius: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5f63f2;
+  color: white;
   text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
 }
-
-.learn-more:hover {
-  background-color: var(--color-gray);
-  color: var(--color-white);
-  text-decoration: none;
-}
-
-.marks img {
-  margin-top: 200px;
-}
-
-.list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.contacts {
-  border-radius: 20px;
-  margin: auto;
-  width: auto;
-  height: auto;
-}
-
-.contacts img {
-  margin-bottom: 100px;
-}
-
-.international-bank{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 50%;
-}
-
-.receive h2 {
-  margin-bottom: 10px;
-}
-
-.statistic {
-  background-color: var(--color-white);
-  padding: 20px;
-  border: 8px;
-  margin-bottom: 10px;
-}
-
-.statistic p {
-  margin-bottom: px;
-}
-
-
+  
 .review-section {
   background-color: #f5f7fa;
   display: flex;
