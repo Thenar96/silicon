@@ -262,11 +262,6 @@ display: flex;
   justify-content: center;
 }
 
-/* .steps img {
-  width: 1150px;
-  height: 600px;
-} */
-
 .text {
   display: flex;
   flex-direction: column;
@@ -282,14 +277,6 @@ display: flex;
 .text p{
   font-size: 16px;
   width: 30%;
-}
-
-.text {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 0px;
-  gap: 12px;
 }
 
 .work {
@@ -315,16 +302,34 @@ display: flex;
   background-color: white;
   padding: 20px;
 }
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+}
+
 .section h2 {
-  font-size: 24px;
+  font-size: 35px;
   margin-bottom: 20px;
   color: #333;
 }
 .section p {
-  margin-bottom: 15px;
+  margin-top: 1rem;
   color: #666;
+  margin-bottom: 1rem;
 }
 
+.column {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.column p {
+  padding-right: 1rem;
+}
 .learn-more {
   display: inline-block;
   padding: 10px 20px;
@@ -333,6 +338,11 @@ display: flex;
   text-decoration: none;
   border-radius: 5px;
   margin-top: 20px;
+  max-width: 10rem;
+}
+
+..learn-more :hover{
+  
 }
   
 .review-section {
