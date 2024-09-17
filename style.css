@@ -254,6 +254,7 @@ display: flex;
 
 .app {
   background: #F3F6FF;
+  height: 1000px;
 }
 
 .steps {
@@ -339,7 +340,11 @@ height: auto;
 }
 
 .marks img {
-  margin-top: 250px;
+  margin-top: 200px;
+}
+
+.checkpoint {
+
 }
 
 .contacts {
@@ -347,6 +352,10 @@ height: auto;
   margin: auto;
   width: auto;
   height: auto;
+}
+
+.contacts img {
+  margin-bottom: 100px;
 }
 
 .international-bank{
@@ -357,16 +366,19 @@ height: auto;
 
 .receive h2 {
   margin-bottom: 10px;
-  
 }
-
-
 
 .statistic {
   background-color: var(--color-white);
   padding: 20px;
   border: 8px;
+  margin-bottom: 10px;
 }
+
+.statistic p {
+  margin-bottom: px;
+}
+
 
 .review-section {
   background-color: #f5f7fa;
